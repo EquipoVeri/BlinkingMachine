@@ -13,9 +13,9 @@ module BlinkingMachine
 logic out_log;
 logic clk1hz_log;
 					
-ClockDivider clkdiv_1hz (.clk_FPGA(clk), .reset(reset), .enable(), .clock_signal(clk1hz_log));
+ClockDivider clkdiv_1hz (.clk_FPGA(clk), .reset(reset), .clock_signal(clk1hz_log));
 
-BlinkingMachine bmachine (.clk(clk1hz_log), .reset(reset), .start(star), .out(out_log));
+BlinkingStateMachine bmachine (.clk(clk1hz_log), .reset(reset), .start(start), .out(out_log));
 
 
 assign out = out_log;
