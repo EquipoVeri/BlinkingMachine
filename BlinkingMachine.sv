@@ -1,3 +1,19 @@
+/******************************************************************* 
+* Name:
+*	BlinkingMAchine.sv
+* Description:
+* 	This module is the top level of the project
+* Inputs:
+*	clk, reset, start
+* Outputs:
+* 	out, clk_1hz
+* Versión:  
+*	1.0
+* Author: 
+*	Felipe Garcia & Diego Reyna
+* Fecha: 
+*	10/02/2018 
+*********************************************************************/
 module BlinkingMachine
 (
 	// Input Ports

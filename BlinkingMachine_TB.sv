@@ -1,3 +1,19 @@
+/******************************************************************* 
+* Name:
+*	BlinkingMAchine_TB.sv
+* Description:
+* 	This module is the TestBench of the project
+* Inputs:
+*	clk, reset, start
+* Outputs:
+* 	out, clk_1hz
+* Versión:  
+*	1.0
+* Author: 
+*	Felipe Garcia & Diego Reyna
+* Fecha: 
+*	10/02/2018 
+*********************************************************************/
 timeunit 1ps; //It specifies the time unit that all the delay will take in the simulation.
 timeprecision 1ps;// It specifies the resolution in the simulation.
 

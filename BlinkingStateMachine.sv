@@ -1,3 +1,19 @@
+/******************************************************************* 
+* Name:
+*	BlinkingStateMAchine.sv
+* Description:
+* 	This module contain the state machine of the project
+* Inputs:
+*	clk, reset, start
+* Outputs:
+* 	out
+* Versión:  
+*	1.0
+* Author: 
+*	Felipe Garcia & Diego Reyna
+* Fecha: 
+*	10/02/2018 
+*********************************************************************/
 module BlinkingStateMachine
 (
 	// Input Ports

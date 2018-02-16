@@ -1,3 +1,19 @@
+/******************************************************************* 
+* Name:
+*	ClockDivider.sv
+* Description:
+* 	This module divide the clock frequency
+* Inputs:
+*	clk_FPGA, reset
+* Outputs:
+* 	clock_signal
+* Versión:  
+*	1.0
+* Author: 
+*	Felipe Garcia & Diego Reyna
+* Fecha: 
+*	10/02/2018 
+*********************************************************************/
 module ClockDivider
 #(
 	// Parameter Declarations
